@@ -35,7 +35,7 @@ class Player():
     def strat1(self):
         return randrange(1,4)
 
-    # Playing the move that beats your opponents previous move
+    # Playing the move that beats your opponent's previous move
     def strat2(self,plays):
         if len(plays) == 0:
             return self.strat1()
