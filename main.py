@@ -1,6 +1,9 @@
 from Game import Game
 from Player import Player
 
+def not_kojo():
+    print("NOT KOJO")
+    
 def main():
 #    single_run(p1_strat=3,p2_strat=2)
     sim(100,p1_strat=4,p2_strat=1)
